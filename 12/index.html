@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="welcome">
+        <h2>Welcome to Quiz</h2>
+        <input type="text" id="name" placeholder="Ente Your Name">
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="exam">
+        <p>Time Left: <span id="time">30</span> seconds!</p>
+        <div id="question"></div>
+        <div class="option"></div>
+        <button onclick="submitQuiz()">Submit</button>
+        <div class="feedback"></div>
+
+    </div>
+    <div id="result">
+        <h2>Your Result</h2>
+        <div id="result"></div>
+        <button onclick="testAgain()">Test Again</button>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

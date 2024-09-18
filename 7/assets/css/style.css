@@ -1,0 +1,17 @@
+body{
+    margin: 20px;
+}
+.moreText {
+display: none;
+}
+.readMore {
+background-color: peru;
+padding-left: 10px;
+cursor: pointer;
+display: inline-block;
+text-decoration: none;
+}
+
+.readMore:hover{
+color: darkblue;
+}
